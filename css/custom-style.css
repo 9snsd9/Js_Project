@@ -25,6 +25,9 @@
   display:block;
 }
 
-.persona-scale {
-    overflow: auto;
+.persona-scale div {
+    height:100%;
+}
+.persona-scale{
+    height: auto;
 }
