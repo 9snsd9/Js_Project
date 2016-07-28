@@ -131,6 +131,48 @@
                         <button class="w3-btn demo" onclick="currentDiv(4)">4</button>
                     </div>
                     <br/>
+                    <br/>
+                    <div class="w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-xlarge">More Info!</button>
+                    </div>
+                    <div id="id01" class="w3-center w3-modal" title="More Info">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue">
+                                <span onclick="document.getElementById('id01').style.display='none'"
+                                      class="w3-closebtn w3-padding-top">&times;</span>
+                                <h2>Structure</h2>
+                            </header>
+
+                            <ul class="w3-pagination w3-white w3-border-bottom" style="width:100%;">
+                                <li><a href="#" class="tablink" onclick="openCity(event, 'serviceFlow')">serviceFlow</a></li>
+                                <li><a href="#" class="tablink" onclick="openCity(event, 'pages')">pages</a></li>
+                                <li><a href="#" class="tablink" onclick="openCity(event, 'system')">system</a></li>
+                            </ul>
+
+                            <div id="serviceFlow" class="w3-container city AutoScaleDiv">
+                                <h1>Service Flow</h1>
+                                <img src="img/intro_screeshot1.jpeg">
+                            </div>
+
+                            <div id="pages" class="w3-container city AutoScaleDiv">
+                                <h1>pages</h1>
+                                <img src="img/intro_screeshot2.jpeg">
+                            </div>
+
+                            <div id="system" class="w3-container city AutoScaleDiv">
+                                <h1>System</h1>
+                                <img src="img/intro_screeshot3.jpeg">
+                            </div>
+
+                            <div class="w3-container w3-light-grey w3-padding w3-center">
+                                <button class="w3-btn w3-right w3-border" onclick="document.getElementById('id01').style.display='none'">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
                 </div>
 
                 <!-- Wise Sayings -->
