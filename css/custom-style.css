@@ -12,3 +12,7 @@
 .main-contents p {
     color: whitesmoke
 }
+
+.text-right i {
+    text-align: right
+}
