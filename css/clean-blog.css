@@ -395,6 +395,14 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
+
+.main-contents h2 {
+    color: white;
+}
+
+
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+

@@ -1,0 +1,14 @@
+.mySlides {display:none}
+
+.img-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-contents h2 {
+    color: white;
+}
+
+.main-contents p {
+    color: whitesmoke
+}
