@@ -1,0 +1,15 @@
+.font_explain{
+    font-size:30px;
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+#explain-p {
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+li {
+    text-align: left;
+}

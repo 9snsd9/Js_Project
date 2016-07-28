@@ -17,6 +17,7 @@
     <!-- Theme CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link href="css/w3.css" rel="stylesheet">
+    <link href="css/cutome-explain-style.css" rel="stylesheet">
     
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -48,12 +49,12 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right w3-topnav">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">Member</a>
                     </li>
                     <!-- Delete this page
                     <li>
@@ -94,41 +95,70 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Want to explain our App?<br/>Don't worry, You can see our App's functions in everytime!</p>
+                <p>
+                    <font size="5px">Want to explain our App?</font><br/>
+                    <font size="5px" color="red">Don't worry</font>
+                    <font size="5px">, You can see our App's functions in everytime!</font>
+                </p>
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
-                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <div class="form-group col-xs-12 floating-label-form-group controls textLeft">
                             <label>Navigation Menu</label>
-                            <input type="text" class="form-control" placeholder="Navigation Menu" id="name" required data-validation-required-message="Please enter your name.">
                             
-                            <img class="mySlides img-center" src="img/app_NaviMenu.png" style="width:50%" align=left>
-                            <p class="help-block text-danger">Navigation Menu's Intro</p>
+                            <p class="font_explain">Navigation Menu</p>
+                            
+                            <img class="mySlides img-center" src="img/app_NaviMenu.png" style="width:40%" align=left>
+                            <div align=right>
+                            <p class="help-block text-danger" align="center" id="explain-p">Navigation Menu's Design</p><br/>
+                           
+                            <li>
+                                My Album : Select many pictures.
+                            </li> <br/>
+                            <li>
+                                TimeLine : Share your friends!
+                            </li><br/>
+                            <li>
+                                NearByPics : Best of Picture is nearyby your location!
+                            </li><br/>
+                            <li>
+                                Search : Search good Photos!
+                            </li><br/>
+                            <li>
+                                My Favorite : You like Everything
+                            </li><br/>
+                            <li>
+                                Alarm : This function will notice you if go nearby the picture you choose.
+                            </li>
+                            </div>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>NearBy Pics</label>
-                            <input type="text" class="form-control" placeholder="NearBy Pics" id="email" required data-validation-required-message="Please enter your email address.">
-                            <img class="mySlides img-center" src="img/app_NearByPics.jpg" style="width:50%" align=left>
+                            <p class="font_explain">NearBy Pics</p>
+                            
+                            <img class="mySlides img-center" src="img/app_NearByPics.jpg" style="width:40%" align=left>
                             <p class="help-block text-danger">NearBy Pics's intro</p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Upload Your Sight</label>
-                            <input type="tel" class="form-control" placeholder="Upload Your Sight" id="phone" required data-validation-required-message="Please enter your phone number.">
-                            <img class="mySlides img-center" src="img/app_UploadPage.jpg" style="width:50%" align=left>
+                            <p class="font_explain">Upload Your Sight</p>
+                            
+                            <img class="mySlides img-center" src="img/app_UploadPage.jpg" style="width:40%" align=left>
                             <p class="help-block text-danger">Upload Your Sight's intro</p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>My Favorite List</label>
-                            <input type="text" class="form-control" placeholder="My Favorite List" id="message" required data-validation-required-message="Please enter a message.">
-                            <img class="mySlides img-center" src="img/app_MyFav.jpg" style="width:50%" align=left>
+                            <p class="font_explain">My Favorite List</p>
+                            
+                            <img class="mySlides img-center" src="img/app_MyFav.jpg" style="width:40%" align=left>
                             <p class="help-block text-danger">My Favorite List's intro</p>
                         </div>
                     </div>
